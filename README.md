@@ -174,9 +174,9 @@ A fully normalized e-commerce database management system (DBMS) built with SQL a
 
   Customer Table
   ```sql
-      insert into e_commerce.customer values (1,'vivek','umesh','wadher','wadhervivek6904@gmail.com','2004-09-06',2147483647,0);
-      insert into e_commerce.customer values (2,'devansh','hitesh','makawana','devansh@gmail.com','2004-05-23',2147483647,0);
-      insert into e_commerce.customer values (3,'jay','amit','chauhan','jay@gmail.com','2004-05-02',2147483647,0);
+insert into e_commerce.customer values (1,'Animesh','Sudhanshu','itsanimeshs@gmail.com','2005-09-08',2147483647,0);
+insert into e_commerce.customer values (2,'Devansh','Rathaur','devansh@gmail.com','2005-05-09',2147483647,0);
+insert into e_commerce.customer values (3,'Ashish','Bhagat','abhagat@gmail.com','2006-06-02',2147483647,0);
 ```
 
   Category Table
@@ -191,18 +191,17 @@ A fully normalized e-commerce database management system (DBMS) built with SQL a
   Seller Table
   
   ```sql
-  insert into e_commerce.seller values (1,'prem upadhay','1295874636',12000.75);  
-  insert into e_commerce.seller values (2,'jay chauhan','7865423565',38000.20);  
-  insert into e_commerce.seller values (3, 'yash shetty','7465456456',8529.23);
+insert into e_commerce.seller values (1,'raghuram mahajan','1295874636',12000.75);  
+insert into e_commerce.seller values (2,'nitish sharma ','7865423565',38000.20);  
+insert into e_commerce.seller values (3, 'prakash singh','7465456456',8529.23);
 ```
 
   Address Table
 
   ```sql
-insert into e_commerce.address values (1,'108','khodiayr chs ltd','devipada borivali east','maharsahtra','mumbai','400066',1);
-insert into e_commerce.address values (2,'214/B','vitthal chs','rattan nagar kandivali east','maharsahtra','mumbai','400801',2);
-insert into e_commerce.address values (3,'52','oberoi sky city','thakur complex malad east','maharsahtra','mumbai','400526',3);
-```
+insert into e_commerce.address values (1,'108','meow industries','dev nagar','punjab','patiala','147004',1);
+insert into e_commerce.address values (2,'214/B','laxmi enterprises','rawalpindi','punjab','patiala','147004',2);
+insert into e_commerce.address values (3,'52','oberoi traders','thakur pratap nagar','punjab','patiala','147004',3);
 
   Product Table
   
@@ -233,12 +232,12 @@ insert into e_commerce.cart values (6,3830,6,3,6);
   Order Table
 
 ```sql
-insert into e_commerce.order_table values (1,'2023-12-06 10:12:20',75000,'delivery','2023-12-09 09:25:02',1,1); 
-insert into e_commerce.order_table values (2,'2023-12-07 20:23:20',1050,'delivery','2023-12-12 05:29:02',2,2); 
-insert into e_commerce.order_table values (3,'2023-12-08 18:12:20',598,'delivery','2023-12-23 09:26:02',3,3); 
-insert into e_commerce.order_table values (4,'2023-12-10 15:45:20',2160,'delivery','2023-12-15 11:26:02',2,4); 
-insert into e_commerce.order_table values (5,'2023-12-10 15:45:20',250,'delivery','2023-12-15 11:26:02',1,5); 
-insert into e_commerce.order_table values (6,'2023-12-21 16:23:20',3830,'delivery','2023-12-29 11:35:09',3,6); ****
+insert into e_commerce.order_table values (1,'2026-05-06 10:12:20',75000,'delivery','2026-05-07 09:25:02',1,1); 
+insert into e_commerce.order_table values (2,'2026-05-06 20:23:20',1050,'delivery','2026-05-09 05:29:02',2,2); 
+insert into e_commerce.order_table values (3,'2026-05-08 18:12:20',598,'delivery','2026-05-9 09:26:02',3,3); 
+insert into e_commerce.order_table values (4,'2026-05-10 15:45:20',2160,'delivery','2026-05-11 11:26:02',2,4); 
+insert into e_commerce.order_table values (5,'2026-05-10 15:45:20',250,'delivery','2026-05-13 11:26:02',1,5); 
+insert into e_commerce.order_table values (6,'2026-05-21 16:23:20',3830,'delivery','2026-05-22 11:35:09',3,6);  ****
 ```
 
   Order Item Table
@@ -255,12 +254,12 @@ insert into e_commerce.orderitem values (766,6,6,6);
   Payment Table
 
 ```sql
-insert into e_commerce.payment values ('online','2023-12-06 10:12:56',1,1,1);
-insert into e_commerce.payment values ('online','2023-12-07 20:23:20',2,2,2);
-insert into e_commerce.payment values ('online','2023-12-08 18:12:20',3,3,3);
-insert into e_commerce.payment values ('online','2023-12-10 15:45:20',4,2,4);
-insert into e_commerce.payment values ('online','2023-12-10 15:45:20',5,1,5);
-insert into e_commerce.payment values ('online','2023-12-21 16:23:20',6,3,6);
+insert into e_commerce.payment values ('online','2026-05-06 10:12:56',1,1,1);
+insert into e_commerce.payment values ('online','2026-05-06 20:23:20',2,2,2);
+insert into e_commerce.payment values ('online','2026-05-08 18:12:20',3,3,3);
+insert into e_commerce.payment values ('online','2026-05-10 15:45:20',4,2,4);
+insert into e_commerce.payment values ('online','2026-05-10 15:45:20',5,1,5);
+insert into e_commerce.payment values ('online','2026-05-21 16:23:20',6,3,6);
 ```
 
 Review Table
