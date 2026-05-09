@@ -29,7 +29,7 @@
 | **Frontend** | React 18, Vite, Tailwind CSS, Framer Motion |
 | **3D/UX** | Three.js, React Three Fiber, Drei, Lucide Icons |
 | **Backend** | Node.js, Express.js, JWT, bcryptjs, dotenv |
-| **Database** | MySQL 8.0, mysql2, Stored Procedures, Triggers, Views |
+| **Database** | MySQL 8.0, mysql2,  |
 
 ---
 
