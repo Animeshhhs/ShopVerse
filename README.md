@@ -9,10 +9,13 @@ Premium SaaS-style e-commerce app with React, Node.js, Express & MySQL. Features
 
 
 
+
+
 </div>
 
 ✨ Key Features
 🎨 Premium UI – Clean SaaS design with glassmorphism & smooth animations
+
 ❓ Interactive FAQ – Accordion with +/- icons, smooth expand/collapse
 🎮 3D Hero – Animated sphere using React Three Fiber
 🤖 Mascot Assistant – Reacts to scroll/click with helpful tooltips
