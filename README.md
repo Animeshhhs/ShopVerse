@@ -1,6 +1,6 @@
 # 🛍️ ShopVerse - Full-Stack E-Commerce Platform
 
-> A premium, production-ready e-commerce web application built for **UCS310 DBMS** at Thapar Institute. Features a modern React UI, interactive 3D elements, JWT authentication, and your complete MySQL schema with triggers, procedures, and views.
+> A premium, production-ready e-commerce web application built for **UCS310 DBMS** at Thapar Institute. Features a modern React UI, interactive 3D elements, JWT authentication, and MySQL schema with triggers, procedures, and views.
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white" />
