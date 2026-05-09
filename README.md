@@ -19,7 +19,7 @@
 - 🤖 **Smart Mascot** – Context-aware assistant that reacts to scroll/click with tooltips
 - 🌓 **Dark/Light Mode** – System-aware toggle with persistent preferences
 - 🔐 **JWT Authentication** – Secure login/register with protected API routes
-- 🗄️ **Full DB Integration** – Your exact ShopVerse schema (triggers, procedures, views, cursors intact)
+- 🗄️ **Full DB Integration** – ShopVerse schema (triggers, procedures, views, cursors intact)
 
 ---
 
