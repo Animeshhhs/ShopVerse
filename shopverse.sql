@@ -8,29 +8,7 @@
 --  Group    : 2Q34  |  Submitted To: Gayatri Saxena
 --  Session  : Jan-May 2026
 -- ================================================================
---  KEY FIXES APPLIED TO ORIGINAL CODE
---  1. phone / seller_phone: INT → BIGINT  (10-digit numbers overflow INT)
---  2. INT(n) display-widths removed        (deprecated in MySQL 8)
---  3. orderitem: added PRIMARY KEY(order_id,product_id)
---  4. orderitem FKs: SET NULL → CASCADE    (PK cols cannot be NULL)
---  5. product_name VARCHAR(50) → 300       (names were truncating)
---  6. seller total_sales seeded to 0;      (triggers/manual UPDATEs set values)
---  7. Product stock adjusted for seed orders
---  8. Orders 5 & 6 set to 'not delivery'  (needed for cursor demo)
---  9. Added: Views, Triggers, Stored Procedures, Functions, Cursors,
---            Complex Queries, Transaction Management
--- 10. FIX — UPDATE customer SET age: added WHERE customer_id > 0
---            (without a KEY-column WHERE clause, MySQL's SQL_SAFE_UPDATES mode
---             blocks the UPDATE with Error 1175)
--- 11. FIX — Transaction Demo 2: stock - 100 → stock - 8
---            (iPhone 15 stock = 9 at that point; -100 gave -91, violating
---             CHECK (stock >= 0) and aborting the statement before the
---             ROLLBACK TO SAVEPOINT could execute)
--- 12. FIX — Transaction Demo 3: wrapped in stored procedure with EXIT HANDLER
---            (bare START TRANSACTION block caused Workbench Error 1452 to
---             surface as a script-level failure; EXIT HANDLER catches the FK
---             violation internally, auto-ROLLBACKs, and prints a clean result)
--- ================================================================
+
 
 DROP DATABASE IF EXISTS e_commerce;
 CREATE DATABASE e_commerce;
